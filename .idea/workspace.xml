@@ -10,9 +10,6 @@
       <change afterPath="$PROJECT_DIR$/COURSE/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/COURSE/PRE WORK/CSS exercises/Screen Shot 2019-05-03 at 7.27.14 PM.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/COURSE/PRE WORK/Homepage clones/Google" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COURSE/PRE WORK/Homepage clones/Google/_DS_Store" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COURSE/PRE WORK/Homepage clones/Google/google homepage-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COURSE/PRE WORK/Homepage clones/Google/google homepage.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/COURSE/PRE WORK/Homepage clones/_DS_Store" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/COURSE/PRE WORK/Homepage clones/instagram/instagram.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/COURSE/PRE WORK/JS/1.Reverse.js" afterDir="false" />
@@ -5885,8 +5882,6 @@
       <change afterPath="$PROJECT_DIR$/COURSE/week4day3_nginx_in_docker/docker-compose.prod.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/COURSE/week4day3_nginx_in_docker/docker-compose.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/COURSE/~.pub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COURSE/PRE WORK/Homepage clones/Google/google homepage- css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/COURSE/PRE WORK/Homepage clones/Google/google homepage- index" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -5896,6 +5891,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/course-work.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
@@ -5940,6 +5946,9 @@
       </list>
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c5e10904-7093-4a31-b630-0e7609fa1684" name="Default Changelist" comment="" />
@@ -5947,12 +5956,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566497885572</updated>
-      <workItem from="1566497985453" duration="296000" />
+      <workItem from="1566497985453" duration="1574000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1566498387582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566498387582</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296000" />
+    <option name="totallyTimeSpent" value="1574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -5983,5 +6000,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
