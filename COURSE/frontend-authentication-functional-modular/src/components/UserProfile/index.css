@@ -1,0 +1,18 @@
+
+.username{
+font-size: 40px;
+}
+
+.user-profile-container{
+    width:100%;
+    display: flex;
+    align-content: left;
+    margin-bottom:50px
+
+}
+
+.follow-button{
+    background-color: purple;
+    color: purple;
+    
+}

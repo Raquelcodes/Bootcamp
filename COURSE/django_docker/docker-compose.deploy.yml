@@ -1,0 +1,39 @@
+version: '3'
+services:
+  app:
+    image: registry.gitlab.propulsion-home.ch/raquel/django_docker:latest
+    command: "sh /app/scripts/run.sh"
+    env_file:
+      - dev.env
+    ports:
+      - "8000:8000"
+      - "2222:22"
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:latest
+    env_file:
+      - dev.env
+    ports:
+      - "5432:5432"
+    volumes:
+      - django-app:/var/lib/postgresql/data
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./config:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt
+      - static-files:/static-files/
+      - media-files:/media-files/
+
+volumes:
+  postgres:
+  django-app:
+  static-files:
+  media-files:
+

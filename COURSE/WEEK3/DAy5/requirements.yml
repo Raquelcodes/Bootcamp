@@ -1,0 +1,6 @@
+name:
+dependencies:
+  - python==3.7
+  - pip:
+    - django==2.2.1
+    - flake8

@@ -1,0 +1,22 @@
+
+.username-button{
+font-size: 40px;
+    border-style:none;
+background-color:transparent
+
+}
+
+.profile-picture{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    border-color:black;
+    margin-bottom:40px;
+  }
+
+  .follow-button{
+      background-color: purple;
+      color: purple;
+      height:300px;
+      z-index:1
+  }

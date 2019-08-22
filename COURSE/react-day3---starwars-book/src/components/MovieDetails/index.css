@@ -1,0 +1,10 @@
+.button {
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+}
+.background {
+  background-color: black;
+  color: yellow;
+  font-style: italic;
+}

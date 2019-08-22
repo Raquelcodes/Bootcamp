@@ -1,0 +1,107 @@
+.Title-New-Restaurant{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.line {
+    display: flex;
+    width: 200px;
+    height: 0px;
+    border: solid 1.5px #e47d31;
+    margin-top: 15px;
+}
+
+.Form-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Form-row {
+    display: flex;
+    width: 1000px;
+    height: 120px;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.Input-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 300px;
+}
+
+.Section-title {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.Input-name {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.New-Input {
+    display: flex;
+    height: 40px;
+    border-radius: 3px;
+    border: 0px;
+    font-family: Karla;
+    font-size: 22px;
+}
+
+.Select {
+    display: flex;
+    height: 42px;
+    border: none;
+    background-color: white;
+    font-family: Karla;
+    font-size: 22px;
+    color: #d8d8d8;
+}
+
+select:focus{outline:0;}
+
+.image-button {
+    display: flex;
+    justify-content: center;
+    background-color:#e47d31;
+    font-size:16px;
+    width:200px;
+    height:35px;
+    border-radius:20px;
+    border:none;
+    color:white;
+    margin-top: 5px;
+}
+
+.image-button:hover {
+    font-weight: bold;
+}
+
+.create-button {
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #e47d31;
+    font-size: 16px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.create-button:hover {
+    font-weight: bold;
+}

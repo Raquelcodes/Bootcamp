@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+:root {
+    --color-primary: #c468ff;
+    --linear-gradient: linear-gradient(102deg, #c468ff, #6e91f6);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}

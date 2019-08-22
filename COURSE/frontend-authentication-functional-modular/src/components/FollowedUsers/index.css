@@ -1,0 +1,10 @@
+.footer-followed-users{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between
+
+}
+
+/* .unfollow-button{
+
+ } */

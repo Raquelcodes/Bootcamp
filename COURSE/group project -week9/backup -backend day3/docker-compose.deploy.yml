@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    ports:
+      - '5432:5432'
+    env_file:
+      - dev.env
+    volumes:
+      - postgres:/var/lib/postgresql/data
+
+  backend:
+    image: registry.gitlab.propulsion-home.ch/full-stack/batch-05-2019/group-projects/phoenix
+    env_file:
+      - dev.env
+    command: "sh /scripts/run.sh"
+    depends_on:
+      - postgres
+    volumes:
+      - media-files:/media-files
+      - static-files:/static-files
+      - frontend:/frontend-build
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - static-files:/static-files
+      - media-files:/media-files
+      - frontend:/frontend
+
+volumes:
+  postgres:
+  static-files:
+  media-files:
+  frontend:

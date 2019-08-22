@@ -1,0 +1,8 @@
+name: week4day2
+dependencies:
+  - python==3.7
+  - pip:
+    - django==2.2.1
+    - flask==1.0.3
+    - flask-sqlalchemy==2.4.0
+    - flask-migrate==2.5.2

@@ -1,0 +1,16 @@
+.shirt-block {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.shirt {
+  height: 100px;
+  width: 100px;
+}
+
+.button-add {
+  height: 20px;
+  width: 100px;
+  border-color: black;
+}

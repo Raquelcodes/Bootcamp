@@ -1,0 +1,14 @@
+.title {
+  text-align: center;
+  font-style: italic;
+  color: yellow;
+  background-color: black;
+  /* height: 100vh; */
+  /* z-index: -2; */
+}
+
+.background {
+  background-color: black;
+  color: yellow;
+  font-style: italic;
+}

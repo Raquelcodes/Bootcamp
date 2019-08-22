@@ -1,0 +1,13 @@
+.Create-rest-section1{
+    display: flex;
+    justify-content: center;
+}
+
+.Create-rest-section2 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}

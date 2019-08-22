@@ -1,0 +1,23 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt
+    networks:
+      - app-network
+  app:
+    image: registry.gitlab.propulsion-home.ch/raquel/droplet_dockerized_homework:latest
+    command: "sh /scripts/run_dev.sh"
+    env_file: dev.env
+    networks:
+      - app-network
+    volumes:
+      - ./app:/app
+
+networks:
+  app-network:

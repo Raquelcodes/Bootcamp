@@ -1,0 +1,57 @@
+html {
+  background-color: #f8f8f8;
+}
+
+.h2{
+  display: flex;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+}
+
+.SearchSection {
+  display: flex;
+  height: 280px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1516684465974-78661ba8165d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+}
+
+
+.searchInput {
+  display: flex;
+  height: 45px;
+  width: 500px;
+  border-radius: 3px;
+  border: 0;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.searchButton {
+  display: flex;
+  width: 150px;
+  height: 45px;
+  justify-content: center;
+  border-radius: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #e47d31;
+  border: 0;
+  margin-left: 20px;
+}
+
+input:focus{outline:0;}
+
+.searchButton:hover {
+    font-weight: bold;
+}
+
+.RestaurantSection {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,81 @@
+.background-pic {
+    display: flex;
+    width: 100vw;
+    height: 150px;
+    background-image: url("https://images.unsplash.com/photo-1462283211984-2ee32b91c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.Profile {
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    border: 1px red solid;
+    height: 80vh;
+}
+
+.left {
+    display: flex;
+    width: 25%;
+    border: 1px red solid;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    width: 30%;
+    border: 1px red solid;
+    flex-direction: column;
+
+}
+
+.middle {
+    display: flex;
+    width: 45%;
+    border: 1px red solid;
+    flex-direction: column;
+
+}
+
+.pic {
+    display:flex;
+    height:250px;
+    width:250px;
+    /*width:100%;*/
+    border: solid 1px red;
+}
+
+.usernavi {
+    display:flex;
+    flex-direction: column;
+
+}
+
+.naviitem {
+    display:flex;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.address-box {
+    display:flex;
+    height: 120px;
+    flex-direction: column;
+        border: 1px red solid;
+    width: 100%;
+
+}
+
+.comment {
+    display: flex;
+    height: 50px;
+}

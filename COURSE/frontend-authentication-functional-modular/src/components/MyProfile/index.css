@@ -1,0 +1,23 @@
+
+.like-button-container{
+    display:flex;
+    flex-direction:row;
+    width:400px;
+    align-items: center;
+    justify-content:left;
+    margin-bottom: 20px
+
+}
+.like-button{
+    height: 40px;
+    width:40px;
+    
+   }
+   .like-button-label{
+       font-weight:bold;
+       color: purple;
+   }
+
+   .name{
+       font-size:40px
+   }

@@ -1,0 +1,40 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt
+    networks:
+      - app-network
+
+  postgres:
+    image: postgres:latest
+    env_file:
+      - prod.env
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+  app:
+    image: registry.gitlab.propulsion-home.ch/raquel/droplet_dockerized:master
+    command: "sh /scripts/run.sh"
+    env_file:
+      - prod.env
+    depends_on:
+      - postgres
+    networks:
+      - app-network
+
+
+volumes:
+  postgres:
+
+# network for all the docker containers
+#to interact between each other
+networks:
+  app-network:

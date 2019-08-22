@@ -1,0 +1,41 @@
+.Create-users {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 160px;
+    border-top: solid 5px #e47d31;
+    border-left: solid 1px lightgrey;
+    border-right: solid 1px lightgrey;
+    border-bottom: solid 1px lightgrey;
+    margin-bottom: 10px;
+}
+
+.User-info {
+    display: flex;
+    height: 55px;
+    border-bottom: solid 1px lightgrey;
+}
+
+.User-name-comments {
+    display: flex;
+    flex-direction: column;
+}
+
+.User-name {
+    display: flex;
+    font-size: 18px;
+    color: #e47d31;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.User-comment {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+
+}

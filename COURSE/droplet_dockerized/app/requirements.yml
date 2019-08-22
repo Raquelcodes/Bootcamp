@@ -1,0 +1,12 @@
+name: app
+channels:
+- conda-forge
+dependencies:
+  - python=3.6
+  - psycopg2=2.7.4
+  - pip:
+    - gunicorn
+    - Flask
+    - Flask-SQLAlchemy
+    - Flask-Migrate
+    - flake8

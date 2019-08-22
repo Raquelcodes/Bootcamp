@@ -1,0 +1,42 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8000:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    networks:
+      - app-network
+
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_DATABASE: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+  app:
+    image: registry.gitlab.propulsion-home.ch/full-stack/solutions/flask-todo-nginx-gunicorn-in-docker:latest
+    command: "/opt/conda/envs/app/bin/gunicorn -w 4 -b 0.0.0.0:8000 --reload app:app"
+    environment:
+      FLASK_APP: app.py
+      FLASK_DEBUG: 1
+    depends_on:
+      - postgres
+    networks:
+      - app-network
+    volumes:
+      - ./app:/app
+
+volumes:
+  postgres:
+
+# network for all the docker containers
+#to interact between each other
+networks:
+  app-network:

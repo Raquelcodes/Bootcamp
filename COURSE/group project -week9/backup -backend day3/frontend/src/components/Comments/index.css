@@ -1,0 +1,13 @@
+.Create-comments-section1{
+    display: flex;
+    justify-content: center;
+}
+
+.Create-comments-section2 {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}

@@ -1,0 +1,13 @@
+.Create-users-section1{
+    display: flex;
+    justify-content: center;
+}
+
+.Create-users-section2 {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}

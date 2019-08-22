@@ -1,0 +1,7 @@
+name: app
+dependencies:
+  - python=3.6
+  - pip:
+    - gunicorn
+    - Flask
+    - flake8

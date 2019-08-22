@@ -1,0 +1,28 @@
+.container {
+    height: 100vh;
+    display: flex;
+    object-fit: contain;
+}
+.col {
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+    &.left {
+        background-image: url('../assets/images/background_image.png'), var(--linear-gradient);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &.right{
+        width: 60%;
+        
+}
+
+
+
+
+
+}

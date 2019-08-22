@@ -1,0 +1,28 @@
+.pending {
+  width: 100px;
+  height: 90px;
+  background-color: pink;
+  text-align: center;
+  text-decoration: line-through;
+}
+.completed {
+  width: 100px;
+  height: 90px;
+  background-color: grey;
+  text-align: center;
+}
+
+.update-box {
+  width: 100px;
+  background: transparent;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+}
+
+.delete-button {
+  background-color: violet;
+  text-align: center;
+  align-items: center;
+  border: none;
+}

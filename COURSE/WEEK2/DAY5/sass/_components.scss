@@ -1,0 +1,252 @@
+@import "functions";
+
+.logo-content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top: rem(265px);
+    margin-bottom: rem(40px);
+    max-width: rem(275px);
+
+    .motion-logo {
+        margin-bottom: rem(15px); 
+    }
+    h1 {
+        margin-bottom: rem(25px);
+        font-weight: 300;
+        font-size: rem(30px);
+    }
+    p{
+        font-weight: 300;
+        font-size: rem(16px);
+        line-height: 1.5;
+        opacity: 0.6;
+    }
+}
+
+.buttons{
+display:flex;
+align-items: center;
+width: rem(275px);
+margin-bottom: rem(127px);
+.apple_store {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-color: white;
+    border-radius: rem(100px);
+    height: rem(40px);
+    width: rem(126px);
+}
+.google_play {
+    display:flex;
+       justify-content: center;
+       align-items: center;
+border: 2px solid;
+border-color: white;
+border-radius: rem(100px);
+height: rem(40px);
+width:rem(126px);
+margin-left: rem(16px);
+}
+}
+
+.social_media{
+    display:flex;
+justify-content: center;
+align-items: center;
+width: rem(275px);
+margin-bottom:rem(42px);
+
+
+.twitter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px, solid;
+    border-radius: 50%;
+  opacity: 0.5;
+  background-color: #ffffff;
+  width: rem(40px);
+  height: rem(40px);
+ 
+  }
+
+
+.facebook{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px, solid;
+    border-radius: 50%;
+  opacity: 0.5;
+  background-color: #ffffff;
+  width: rem(40px);
+  height: rem(40px);
+  margin-left: 16px;
+} 
+.instagram{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px, solid;
+    border-radius: 50%;
+  opacity: 0.5;
+  background-color: #ffffff;
+  width: rem(40px);
+  height: rem(40px);
+  margin-left: rem(16px);
+} 
+}
+
+.footer_info{
+    font-size:12px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    margin-bottom:rem(40px);
+ 
+}
+
+
+/* right side of website */
+
+.sign_up{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:rem(40px);
+    .sign_up_btn{
+        border: 2px solid;
+        border-color: lightgrey;
+        border-radius: 100px;
+        height: rem(40px);
+        width: rem(120px);
+        margin-right:40px;
+
+    }
+    .sign_up_label{
+        font-size:14px;
+        margin-right:rem(14px);
+    }
+
+}
+
+.sign_in{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: rem(141px);
+    //margin-bottom: rem(64px);
+    
+    .title{
+        font-size: 40px;
+        margin-bottom: rem(64px);
+    }
+}
+.username{
+    display:flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+/* with input boxes ----
+.input_user{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    margin-bottom:rem(58px);
+} */
+
+.input_user{
+    display:flex;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    margin-right:rem(471px);
+    margin-left:rem(23px);
+    
+}
+
+
+.username_logo{
+    display:flex;
+    margin-left:rem(252px);
+    
+}
+}
+
+
+.username_line{
+    width:340px;
+    height:2px;
+    color:grey;
+    margin-top:rem(13px);
+    margin-bottom:rem(43px);
+}
+
+
+
+.password{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+
+/* with input boxes ----
+.input_pass{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    margin-bottom: rem(167px);
+}*/
+.input_pass{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    
+margin-right:rem(471px);
+margin-left:rem(23px);
+}
+
+.password_logo{
+    display:flex;
+    margin-left:rem(252px);
+    
+}
+}
+
+
+.password_line{
+    width:340px;
+    height:2px;
+    color:grey;
+    margin-top:rem(13px);
+    margin-bottom: rem(167px);
+}
+
+.sign_in_button{
+    
+    border-radius:100px;
+    width: rem(260px);
+  height: rem(60px);
+  
+  background-image: linear-gradient(102deg, #c468ff, #6e91f6);
+color:white;
+font-size: 12px;
+}
+

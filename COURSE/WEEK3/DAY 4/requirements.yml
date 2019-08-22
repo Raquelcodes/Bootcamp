@@ -1,0 +1,7 @@
+name: day4
+dependencies:
+  - python==3.7
+  - pip:
+    - twine
+    - flake8
+    - nose
